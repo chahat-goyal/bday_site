@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    color: #ffffff;
+    background:linear-gradient(#a2d2ff, #EFB0C9);
+    /*gradient means color fading from 1 color to 2*/
+}
+#bro-img{
+    width:150px;
+    border-radius: 50%;
+    font-family: 'Orbitron', sans-serif;
+    border:6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+h1,h2,h3,h4,p{
+    text-shadow: 0px 0px 1px black;
+}
+/*h2,h4{
+    background:#EFB0C9;
+}
+*/ /*write in seperate class*/
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bday-age{
+    background:#EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin:5px 0px 10px 0px;
+}
+#bday-date{
+    background:#EFB0C9;
+    margin: 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/*we did it to create pink boundary only along letters otherwise it will be along all horizontal direction*/
+
+/*.gift-img{
+   width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+}*/                      /*inserted by background*/
+
+.gift-section{
+    margin-top: 50px;
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+.gift-hint{
+    margin-top: 0px;
+}
+.gift-img{
+    background-image: url("./images/gift-cover.jpg");
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+/*do this to add hover project*/
+#gift-img-happy:hover{
+    background-image: url("./images/happy.gif");
+}
+#gift-img-hero:hover{
+    background-image: url("./images/genius.gif");
+}
+#gift-img-cute:hover{
+    background-image: url("./images/IMG-20230725-WA0013.jpg");
+}
+#gift-img-cheers:hover{
+    background-image: url(./images/cheers.gif);
+}
+#footer{
+    margin: 40px auto 20px;
+    font-style: italic;
+    text-shadow: 0px 0px 1px black;
+}
+a{
+    color: white;
+}
+/*automatic anchor color is blue*/
